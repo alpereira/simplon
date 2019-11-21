@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+footer{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    width: 80vw;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
+article{
+    width: 380px;
+    margin-left: 180px;
+}
